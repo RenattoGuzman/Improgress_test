@@ -3,3 +3,13 @@
   background-color: rgb(205,245,100);
 }
 
+div{
+  display: block;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Titulo{
+  font-size: 48px;
+}

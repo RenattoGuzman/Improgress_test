@@ -1,10 +1,30 @@
+h1 {
+    padding-top: 30px;
+}
+
 .elements_container{
     display:flex;
 }
 
+@media only screen and (max-width: 600px) {
+    .elements_container {
+        display:contents;
+    }
+
+    .graph_container{
+        min-width: fit-content;
+        max-width:automatic;
+    }
+    .bar_graph{
+        width:80%;
+        height: 300px;
+        padding-top: 30px
+        
+    }
+}
+
 .tabla_container{
     text-align: center;
-    max-width: fit-content;
 }
 
 .graph_container{
@@ -15,7 +35,7 @@
 .bar_graph{
     width: 100%;
     height: 300px;
-    padding-top: 30px
+    padding-bottom: 30px;
     
 }
 .tabla {
